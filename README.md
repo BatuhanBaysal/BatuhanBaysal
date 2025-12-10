@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=BatuhanBaysal&color=blue" alt="Profil Ziyaret Sayısı" />
   
   <h1>👋 Selam! Ben Batuhan Baysal.</h1>
   
