@@ -1,115 +1,84 @@
 <div align="center">
-  
-  <h1>👋 Selam! Ben Batuhan Baysal.</h1>
-  
-  <h3>☁️ Java, Microservices & Full-Stack Developer</h3>
-  
-  <p>
-    Junior Yazılım Geliştiricisiyim. Java ve Spring Boot ekosistemini kullanarak sağlam ve ölçeklenebilir uygulamalar geliştiriyorum. 
-    Özellikle Microservices mimarileri kurmaya, dağıtık sistem güvenliğini (JWT/RBAC) sağlamaya ve projelerimi AWS gibi modern bulut ortamlarına taşımaya odaklanıyorum. 
-    Kubernetes, Serverless ve Asenkron Mesajlaşma (Kafka) gibi yeni nesil trendleri sürekli öğrenerek kendimi geliştiriyorum.
- </p>
+  <h1>👋 Batuhan Baysal</h1>
+  <h3>Software Engineer | Java, Spring Boot & Distributed Systems Specialist</h3>
+
+  <p align="center">
+    Veri bütünlüğü, sistem dayanıklılığı (resilience) ve yüksek erişilebilirlik odaklı, 
+    kurumsal standartlarda backend mimarileri geliştiren bir yazılım mühendisiyim.
+  </p>
+
+  <div align="center">
+    <img src="https://img.shields.io/badge/Project%20Impact-1.1k+%20Clones-brightgreen?style=for-the-badge&logo=github" alt="Impact">
+    <img src="https://img.shields.io/badge/Architecture-Distributed%20Microservices-blue?style=for-the-badge" alt="Architecture">
+    <img src="https://img.shields.io/badge/Testing-Coverage%20100%25-blueviolet?style=for-the-badge" alt="Testing">
+    <img src="https://img.shields.io/badge/Education-B.S.%20Computer%20Engineering-red?style=for-the-badge" alt="Education">
+  </div>
 </div>
 
 ---
 
-## 🧠 Çekirdek Yetenekler ve Vizyon (The Tech Stack)
+## 🏗️ Mimari Yaklaşım & Mühendislik Disiplini
 
-<p align="left">
-  
-  ### 💻 Temel Geliştirme (Core & Backend)
-  **Java & Frameworks:**
-  <img src="https://img.shields.io/badge/Java%2017+-007396?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/Spring_Boot%203-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
-  <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Cloud"/>
-  <img src="https://img.shields.io/badge/REST_API-003D66?style=for-the-badge&logo=rest-api&logoColor=white" alt="REST API"/>
+Projelerimi geliştirirken "çalışan kod"un ötesine geçerek, endüstriyel standartlarda (Enterprise-ready) sistemler inşa etmeye odaklanırım:
 
-  **Security & Testing:**
-  <img src="https://img.shields.io/badge/Security%20(JWT/RBAC)-2C3E50?style=for-the-badge&logo=keybase&logoColor=white" alt="Security (JWT/RBAC)"/>
-  <img src="https://img.shields.io/badge/Testing%20(JUnit/Mockito)-25A625?style=for-the-badge&logo=mocha&logoColor=white" alt="Testing (JUnit/Mockito)"/>
-
-  <br>
-  
-  ### 🎨 Full-Stack ve Ön Yüz (Frontend)
-  **Frontend & UI:**
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-
-  <br>
-  
-  ### ☁️ Cloud & Dağıtık Mimari (Microservices & DevOps)
-  **Architecture & Cloud:**
-  <img src="https://img.shields.io/badge/Microservices-34495E?style=for-the-badge&logo=microservices&logoColor=white" alt="Microservices"/>
-  <img src="https://img.shields.io/badge/AWS%20(EC2/RDS)-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes%20(Learning)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/Kafka%20(Async%20Messaging)-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" alt="Kafka"/>
-
-  <br>
-  
-  ### 📊 Veri Yönetimi ve İzleme (Data & Observability)
-  **Data & Cache:**
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
-  
-  **Observability:**
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
-  <img src="https://img.shields.io/badge/Grafana-F05A00?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
-  <img src="https://img.shields.io/badge/Zipkin-C0C0C0?style=for-the-badge&logo=zipkin&logoColor=black" alt="Zipkin"/>
-
-</p>
+1. **Security & Identity Management:** Güvenliği merkezi bir katman olarak kurgularım. **Keycloak (OIDC/OAuth2)** ile IAM altyapısı oluşturuyor; **JWT, RBAC** ve **Resource Ownership** kontrolleriyle uçtan uca koruma sağlıyorum.
+2. **Reliability & Event-Driven Design:** Dağıtık mimarilerde **RabbitMQ** ile asenkron iletişim kurguluyor, **Resilience4j** (Circuit Breaker, Rate Limiter) kullanarak sistemin cascade failure (zincirleme çökme) risklerini yönetiyorum.
+3. **LGTM Stack Observability:** "Gözlemlenemeyen sistem, kontrol edilemeyen sistemdir." **Grafana Loki** (Logging), **Prometheus** (Metrics) ve **Zipkin/Tempo** (Tracing) ile sistemin runtime sağlığını tam şeffaflıkla izliyorum.
 
 ---
 
-## ✨ Yüksek Etkili Projeler (Featured Projects)
+## 🏛️ Amiral Gemisi Projem: Secure Banking Core
+Finansal veri bütünlüğü ve yüksek concurrency (eşzamanlılık) problemlerine çözüm olarak tasarlanmış kurumsal bir backend motorudur.
 
-### 1. Spring Cloud Observability Stack 🛰️
-* **Link:** [https://github.com/BatuhanBaysal/spring-cloud-observable-microservices]
-* **Amaç:** Dağıtık bir Microservices mimarisinde gerçek zamanlı izleme (monitoring) ve hata takibi (tracing) yeteneği sağlamak.
-* **Teknolojiler:** Spring Cloud (Eureka, Gateway), Zipkin (Tracing), Prometheus (Metrics), Grafana (Dashboarding).
-* **Ana Öğrenim:** Kurumsal seviyede **Gözlemlenebilirlik (Observability)** ilkelerini ve araçlarını üretim ortamına yakın bir yapıda nasıl uygulayacağımı öğrendim.
+### 🚧 Teknik Zorluklar & Mühendislik Çözümleri
 
-### 2. Secure Fullstack Note App 🔑
-* **Link:** [https://github.com/BatuhanBaysal/fullstack-secure-noteapp-spring-react]
-* **Amaç:** Spring Boot 3 REST API ve React.js kullanan, kullanıcı yetkilendirmesi (Authentication & Authorization) ile güvenliği sağlanmış bir Full-Stack uygulama oluşturmak.
-* **Teknolojiler:** Java 17, Spring Security, JWT, RBAC, React.js, PostgreSQL.
-* **Ana Öğrenim:** Modern web uygulamalarında **Stateful ve Stateless güvenlik modellerini** etkin bir şekilde nasıl uygulayacağımı ve hem Backend hem de Frontend'i entegre etmeyi deneyimledim.
+* **Zorluk: Deadlock (Karşılıklı Kilitlenme) Algoritması**
+    * **Problem:** İki kullanıcının eşzamanlı olarak birbirine transfer başlatması durumunda oluşan dairesel beklemeyi (circular wait) çözmek.
+    * **Çözüm:** **Alphabetical Resource Ordering** stratejisini uyguladım. Kaynakları alfabetik IBAN sırasına göre kilitleyerek deadlock olasılığını mimari seviyede elimine ettim.
 
-### 3. BookVerse REST API 📚
-* **Link:** [https://github.com/BatuhanBaysal/bookverse-rest-api]
-* **Amaç:** Kitap merkezli bir sosyal platform için yüksek performanslı ve sürdürülebilir bir API tasarlamak.
-* **Teknolojiler:** Spring Boot, PostgreSQL, Junit/Mockito.
-* **Ana Öğrenim:** API **tasarım desenlerini** ve test odaklı geliştirme (TDD) yaklaşımlarını uygulayarak kod kalitesini artırma becerisi edindim.
+* **Zorluk: Race Condition & Data Consistency**
+    * **Problem:** Yüksek trafikli para transferlerinde "Double Spending" riskini önlemek.
+    * **Çözüm:** **Pessimistic Write Locking** ve **Transaction Isolation** seviyelerini optimize ederek bakiye operasyonlarını atomik hale getirdim.
+
+* **Zorluk: Infrastructure Synchronization**
+    * **Problem:** Veritabanı şema değişikliklerinin farklı ortamlarda manuel yönetiminden doğan tutarsızlıklar.
+    * **Çözüm:** **Liquibase** ile "Migration-based" şema yönetimi kurguladım ve CI/CD süreçlerini otomatize ettim.
 
 ---
 
-## 📊 Teknik Veriler (Vitals)
+## 🛠️ Yetkinlik Matrisi & Stratejik Kararlar
+
+| Katman | Teknoloji | Mühendislik Gerekçesi (Why?) |
+| :--- | :--- | :--- |
+| **Identity** | **Keycloak & OAuth2** | Kimlik yönetimini servis kodundan ayırmak ve profesyonel bir IAM (Identity Access Management) çözümü sunmak için. |
+| **Observability** | **Loki, Prometheus, Tempo** | Log, Metrik ve Trace verilerini korele ederek hata tespit süresini (MTTR) minimize etmek için. |
+| **Persistence** | **PostgreSQL & Redis** | İlişkisel veri tutarlılığı için PostgreSQL; performans darboğazlarını aşmak adına Redis caching katmanı için. |
+| **Messaging** | **RabbitMQ** | Servisler arası sıkı bağımlılığı (Tight Coupling) kırmak ve hata toleranslı event-driven iş akışları için. |
+| **Resilience** | **Resilience4j** | Dağıtık sistemlerde ağ gecikmeleri veya servis kesintilerine karşı sistem dayanıklılığını korumak için. |
+| **Quality Gate** | **SonarQube & JUnit 5** | Statik kod analizi ve %100 test coverage ile teknik borçlanmayı (Technical Debt) önlemek için. |
+
+---
+
+## 🚀 Diğer Stratejik Projeler
+
+* **[Spring Cloud Observability](https://github.com/BatuhanBaysal/spring-cloud-observable-microservices):** Dağıtık sistemlerde hata takibi (distributed tracing) üzerine LGTM Stack kullanarak kurguladığım monitoring altyapısı.
+* **[Secure Note App (Full-Stack)](https://github.com/BatuhanBaysal/fullstack-secure-noteapp-spring-react):** Spring Security ve React.js entegrasyonu ile JWT tabanlı stateless güvenlik ve RBAC modellemesi.
+* **[Auth & Notification Microservice Stack](https://github.com/BatuhanBaysal/auth-notification-microservice-stack):** Redis tabanlı caching ve RabbitMQ ile asenkron mesajlaşma üzerinden servisler arası iletişimi (decoupling) optimize ettiğim mikroservis çalışması.
+* **[AWS Parameter Store Integration](https://github.com/BatuhanBaysal/aws-parameter-store-spring-boot-crud):** Konfigürasyon yönetimini bulut ortamına (AWS) taşıyarak "Externalized Configuration" prensibini uyguladığım proje.
+
+---
+
+## 📈 Engineering Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BatuhanBaysal&show_icons=true&theme=dark&title_color=6DB33F&text_color=ffffff&hide_border=true" />
+</div>
+
+---
+
+## 🤝 İletişim
+* **Profesyonel Yaklaşım:** Sadece kod yazmaya değil, ölçeklenebilir ve sürdürülebilir mimari kararlar almaya odaklanırım.
+* **İletişim:** [LinkedIn](https://www.linkedin.com/in/batuhan-baysal/) | [Email](mailto:batuhanbaysal3@gmail.com)
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BatuhanBaysal&show_icons=true&theme=dark&custom_title=GitHub%20Stats&hide=prs&border_radius=10" alt="BatuhanBaysal's GitHub stats" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BatuhanBaysal&layout=compact&theme=dark&langs_count=6&custom_title=Top%20Languages&border_radius=10" alt="Top Languages" />
+  <img src="https://img.shields.io/badge/Main%20Stack-Java%20%26%20Spring-orange?style=for-the-badge&logo=java" />
 </div>
-
----
-
-## 📞 Bağlantı Kurun (Let's Connect!)
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/batuhan-baysal/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:batuhanbaysal3@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://stackoverflow.com/users/31935376/batuhan-baysal" target="_blank">
-    <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow">
-  </a>
-</div>
-
----
-
-<p align="center">Made with ❤️ and Java ☕</p>
