@@ -1,84 +1,65 @@
-<div align="center">
-  <h1>👋 Batuhan Baysal</h1>
-  <h3>Software Engineer | Java, Spring Boot & Distributed Systems Specialist</h3>
+# 👋 Hi, I'm Batuhan Baysal
+### Software Engineer | Backend & Full-Stack Capabilities
 
-  <p align="center">
-    Veri bütünlüğü, sistem dayanıklılığı (resilience) ve yüksek erişilebilirlik odaklı, 
-    kurumsal standartlarda backend mimarileri geliştiren bir yazılım mühendisiyim.
-  </p>
+I am a **Software Engineer** dedicated to building high-performance, enterprise-grade systems. While my core specialization is in **Java & Spring Boot**, I possess strong **Full-Stack capabilities** with **React** and **Vue.js**. I focus on the "Engineering" behind the code—solving complex bottlenecks through manual architectural design.
 
-  <div align="center">
-    <img src="https://img.shields.io/badge/Project%20Impact-1.1k+%20Clones-brightgreen?style=for-the-badge&logo=github" alt="Impact">
-    <img src="https://img.shields.io/badge/Architecture-Distributed%20Microservices-blue?style=for-the-badge" alt="Architecture">
-    <img src="https://img.shields.io/badge/Testing-Coverage%20100%25-blueviolet?style=for-the-badge" alt="Testing">
-    <img src="https://img.shields.io/badge/Education-B.S.%20Computer%20Engineering-red?style=for-the-badge" alt="Education">
-  </div>
-</div>
+**"I use AI to accelerate my workflow, but I manually craft the architecture to ensure system integrity and performance."**
 
 ---
 
-## 🏗️ Mimari Yaklaşım & Mühendislik Disiplini
+## 🏗️ Engineering Discipline & Manual Craftsmanship
+*In an era of automated code, I prioritize deep technical understanding and manual precision.*
 
-Projelerimi geliştirirken "çalışan kod"un ötesine geçerek, endüstriyel standartlarda (Enterprise-ready) sistemler inşa etmeye odaklanırım:
-
-1. **Security & Identity Management:** Güvenliği merkezi bir katman olarak kurgularım. **Keycloak (OIDC/OAuth2)** ile IAM altyapısı oluşturuyor; **JWT, RBAC** ve **Resource Ownership** kontrolleriyle uçtan uca koruma sağlıyorum.
-2. **Reliability & Event-Driven Design:** Dağıtık mimarilerde **RabbitMQ** ile asenkron iletişim kurguluyor, **Resilience4j** (Circuit Breaker, Rate Limiter) kullanarak sistemin cascade failure (zincirleme çökme) risklerini yönetiyorum.
-3. **LGTM Stack Observability:** "Gözlemlenemeyen sistem, kontrol edilemeyen sistemdir." **Grafana Loki** (Logging), **Prometheus** (Metrics) ve **Zipkin/Tempo** (Tracing) ile sistemin runtime sağlığını tam şeffaflıkla izliyorum.
-
----
-
-## 🏛️ Amiral Gemisi Projem: Secure Banking Core
-Finansal veri bütünlüğü ve yüksek concurrency (eşzamanlılık) problemlerine çözüm olarak tasarlanmış kurumsal bir backend motorudur.
-
-### 🚧 Teknik Zorluklar & Mühendislik Çözümleri
-
-* **Zorluk: Deadlock (Karşılıklı Kilitlenme) Algoritması**
-    * **Problem:** İki kullanıcının eşzamanlı olarak birbirine transfer başlatması durumunda oluşan dairesel beklemeyi (circular wait) çözmek.
-    * **Çözüm:** **Alphabetical Resource Ordering** stratejisini uyguladım. Kaynakları alfabetik IBAN sırasına göre kilitleyerek deadlock olasılığını mimari seviyede elimine ettim.
-
-* **Zorluk: Race Condition & Data Consistency**
-    * **Problem:** Yüksek trafikli para transferlerinde "Double Spending" riskini önlemek.
-    * **Çözüm:** **Pessimistic Write Locking** ve **Transaction Isolation** seviyelerini optimize ederek bakiye operasyonlarını atomik hale getirdim.
-
-* **Zorluk: Infrastructure Synchronization**
-    * **Problem:** Veritabanı şema değişikliklerinin farklı ortamlarda manuel yönetiminden doğan tutarsızlıklar.
-    * **Çözüm:** **Liquibase** ile "Migration-based" şema yönetimi kurguladım ve CI/CD süreçlerini otomatize ettim.
+* **Manual Backend Craftsmanship:** Expertly implementing **Java 17** and **Spring Boot 3** business logic, ensuring type-safety and adherence to **SOLID** principles.
+* **Full-Stack Integration:** Designing seamless end-to-end flows, focusing on secure **JWT** management on the frontend (**React/Vue**) and robust API security on the backend.
+* **Distributed Systems & K8s:** Orchestrating microservices with **Spring Cloud**, **Docker**, and **Kubernetes**, ensuring scalability and container-level reliability.
+* **Observability-First:** Manually configuring the **LGTM Stack** to reduce **MTTR**, turning "blind spots" into actionable data.
 
 ---
 
-## 🛠️ Yetkinlik Matrisi & Stratejik Kararlar
+## 🏛️ Engineering Portfolio: Problem-Solution Matrix
+*Demonstrating the ability to identify critical bottlenecks and implement manual engineering solutions.*
 
-| Katman | Teknoloji | Mühendislik Gerekçesi (Why?) |
-| :--- | :--- | :--- |
-| **Identity** | **Keycloak & OAuth2** | Kimlik yönetimini servis kodundan ayırmak ve profesyonel bir IAM (Identity Access Management) çözümü sunmak için. |
-| **Observability** | **Loki, Prometheus, Tempo** | Log, Metrik ve Trace verilerini korele ederek hata tespit süresini (MTTR) minimize etmek için. |
-| **Persistence** | **PostgreSQL & Redis** | İlişkisel veri tutarlılığı için PostgreSQL; performans darboğazlarını aşmak adına Redis caching katmanı için. |
-| **Messaging** | **RabbitMQ** | Servisler arası sıkı bağımlılığı (Tight Coupling) kırmak ve hata toleranslı event-driven iş akışları için. |
-| **Resilience** | **Resilience4j** | Dağıtık sistemlerde ağ gecikmeleri veya servis kesintilerine karşı sistem dayanıklılığını korumak için. |
-| **Quality Gate** | **SonarQube & JUnit 5** | Statik kod analizi ve %100 test coverage ile teknik borçlanmayı (Technical Debt) önlemek için. |
+| Project | Core Stack | Engineering Challenge & Manual Solution | Impact & Evidence of Growth |
+| :--- | :--- | :--- | :--- |
+| **[Secure Banking Core](https://github.com/BatuhanBaysal/secure-banking-core)** | Java 17, Spring Boot, Postgres | **Challenge:** Race conditions and deadlocks during concurrent transfers. <br> **Solution:** Implemented **Pessimistic Locking** and **Alphabetical Resource Ordering**. | **Impact:** Mathematically eliminated circular wait deadlocks; ensured 100% ACID compliance in financial transactions. |
+| **[Chess Platform](https://github.com/BatuhanBaysal/chess-platform)** *(In Dev)* | **React**, WebSockets, Redis | **Challenge:** Real-time state sync and sub-100ms latency requirements. <br> **Solution:** Manually architected **STOMP/WebSocket** handlers and move validation logic. | **Impact:** Achieved real-time UI synchronization with optimized session handling via Redis caching. |
+| **[Cloud Observability](https://github.com/BatuhanBaysal/spring-cloud-observable-microservices)** | Spring Cloud, LGTM Stack | **Challenge:** High MTTR (Mean Time to Repair) due to lack of visibility. <br> **Solution:** Manually integrated **OpenTelemetry** and **Grafana Tempo** for distributed tracing. | **Impact:** Reduced error detection time by correlating logs, metrics, and traces across service boundaries. |
+| **[Secure Note App](https://github.com/BatuhanBaysal/fullstack-secure-noteapp-spring-react)** | **React**, Spring Security, JWT | **Challenge:** Session hijacking and XSS/CSRF security risks. <br> **Solution:** Implemented **JWT rotation**, secure **HTTP-only Cookies**, and RBAC on both layers. | **Impact:** Created a stateless yet secure authentication flow with automated refresh-token logic. |
+| **[Auth & Notification](https://github.com/BatuhanBaysal/auth-notification-microservice-stack)** | RabbitMQ, Redis, Keycloak | **Challenge:** System downtime caused by third-party mail server failures. <br> **Solution:** Designed an **Event-Driven** architecture using **RabbitMQ**. | **Impact:** Achieved 100% service decoupling; authentication remains functional even during notification service outages. |
 
 ---
 
-## 🚀 Diğer Stratejik Projeler
+## 🛠️ Full-Stack Technical Competency
 
-* **[Spring Cloud Observability](https://github.com/BatuhanBaysal/spring-cloud-observable-microservices):** Dağıtık sistemlerde hata takibi (distributed tracing) üzerine LGTM Stack kullanarak kurguladığım monitoring altyapısı.
-* **[Secure Note App (Full-Stack)](https://github.com/BatuhanBaysal/fullstack-secure-noteapp-spring-react):** Spring Security ve React.js entegrasyonu ile JWT tabanlı stateless güvenlik ve RBAC modellemesi.
-* **[Auth & Notification Microservice Stack](https://github.com/BatuhanBaysal/auth-notification-microservice-stack):** Redis tabanlı caching ve RabbitMQ ile asenkron mesajlaşma üzerinden servisler arası iletişimi (decoupling) optimize ettiğim mikroservis çalışması.
-* **[AWS Parameter Store Integration](https://github.com/BatuhanBaysal/aws-parameter-store-spring-boot-crud):** Konfigürasyon yönetimini bulut ortamına (AWS) taşıyarak "Externalized Configuration" prensibini uyguladığım proje.
+| Category | Technology Stack |
+| :--- | :--- |
+| **Backend & Core** | **Java 17, Spring Boot 3, Hibernate, Spring Data JPA, Maven** |
+| **Frontend** | **React.js, Vue.js (Composition API), Redux, Axios, Bootstrap, HTML5, CSS3** |
+| **Security & IAM** | **Keycloak (OAuth2/OIDC), Spring Security, JWT, RBAC** |
+| **Infrastructure** | **Kubernetes (K8s), Docker, Docker Compose, RabbitMQ** |
+| **Data & Caching** | **PostgreSQL, MySQL, Redis (Distributed Caching), Liquibase** |
+| **Observability** | **Loki, Grafana, Jaeger, Prometheus, OpenTelemetry, Micrometer** |
+| **Testing & Quality** | **JUnit 5, Mockito, SonarQube (Static Analysis), H2 Database** |
 
 ---
 
 ## 📈 Engineering Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BatuhanBaysal&show_icons=true&theme=dark&title_color=6DB33F&text_color=ffffff&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=BatuhanBaysal&show_icons=true&theme=dark&title_color=6DB33F&text_color=ffffff&hide_border=true" alt="Batuhan's Stats" />
 </div>
 
 ---
 
-## 🤝 İletişim
-* **Profesyonel Yaklaşım:** Sadece kod yazmaya değil, ölçeklenebilir ve sürdürülebilir mimari kararlar almaya odaklanırım.
-* **İletişim:** [LinkedIn](https://www.linkedin.com/in/batuhan-baysal/) | [Email](mailto:batuhanbaysal3@gmail.com)
+## 🤝 Let's Connect
+I value the "Why" and the "How" behind every line of code. I am currently seeking my first professional role to deliver high-impact engineering solutions.
+
+* **LinkedIn:** [/in/batuhan-baysal](https://www.linkedin.com/in/batuhan-baysal/)
+* **Email:** [batuhanbaysal3@gmail.com](mailto:batuhanbaysal3@gmail.com)
+* **Location:** Istanbul, Turkey (Open to Remote)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Main%20Stack-Java%20%26%20Spring-orange?style=for-the-badge&logo=java" />
+  <img src="https://img.shields.io/badge/Frontend-React%20%26%20Vue-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Methodology-Manual%20Craftsmanship-red?style=for-the-badge" />
 </div>
